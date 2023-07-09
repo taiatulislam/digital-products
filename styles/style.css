@@ -56,3 +56,41 @@
     background-color: red;
     color: whitesmoke;
 }
+
+/* About section */
+.about-h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.about-image>img {
+    width: 300px;
+}
+
+.about-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.about-para {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-button {
+    padding: 13px 20px;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
