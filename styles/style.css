@@ -141,3 +141,48 @@
     border: none;
     color: white;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 70vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 150px;
+}
+
+.footer-image>img {
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.footer-image {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.footer-info>h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-info>p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.footer-copyright {
+    margin-top: 30px;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    width: 75%;
+    margin: auto;
+    border: 0.5px solid grey;
+}
