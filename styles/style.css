@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #424141;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header img {
+    height: 25px;
+    width: 125px;
+}
+
+.nev a {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 20px;
+}
