@@ -4,7 +4,7 @@
 
 .header {
     background-color: #424141;
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,4 +20,39 @@
     color: whitesmoke;
     text-decoration: none;
     margin-right: 20px;
+}
+
+.banner {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-image: url('../images/background.png'), linear-gradient(45deg, rgb(7, 7, 7), #202020);
+}
+
+.image-1 {
+    width: 320px;
+    height: 270px;
+}
+
+.title {
+    color: whitesmoke;
+    font-size: 55px;
+}
+
+.main-para {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.btn {
+    padding: 14px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: whitesmoke;
 }
